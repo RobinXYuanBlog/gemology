@@ -1,0 +1,128 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+
+html, body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    background: url("../img/IMM010_26.JPG") fixed no-repeat;
+    /*z-index: 5;*/
+    /*background-size: cover;*/
+}
+
+header .fade-page {
+    height: 100%;
+    width: 120%;
+    background-color: rgba(30, 30, 30, 0.7);
+    padding-top: 9%;
+    z-index: 10;
+    position: relative;
+}
+
+header h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: 0.7;
+    z-index: 15;
+}
+
+header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 56px;
+}
+
+header h5 {
+    opacity: 0.7;
+}
+
+.article-contains {
+    height: 100%;
+    width: 100%;
+    margin-top: 30%;
+    position: relative;
+    z-index: 15;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-top: 3%;
+}
+
+.article-contains h1, h2, h3 {
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+
+.article-contains h2 {
+    margin-top: 2em;
+    margin-bottom: 1.2em !important;
+}
+
+.article-contains h3 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.article-contains h4 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.article-contains p {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 0.7em;
+    text-align: justify;
+}
+
+.point-title {
+    font-size: 28px;
+    line-height: 1.5em;
+    margin-bottom: 1em !important;
+}
+
+.list-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.list-subtitle {
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    font-style: italic;
+}
+
+.border-none {
+    border: 0em !important;
+}
+
+td {
+    text-align: justify;
+}
+
+.border-left {
+
+}
+
+.table {
+    border-bottom: 0em;
+    border-top: 0em !important;
+}
+
+.img-row {
+    height: 28em;
+    width: 30em;
+}
+
+.image {
+    height: 27em;
+    width: auto;
+}
+
