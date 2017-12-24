@@ -6,7 +6,19 @@
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="intro_style.css">
+    <link rel="stylesheet" href="../css/style_nav.css">
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+    <script src="../js/jquery.js"></script>
+
+    <script src="scroll.js"></script>
+
+    <script>
+//        $("#nav").hide();
+    </script>
+
 </head>
+
 <body>
 
 <div class="main container-fluid">
@@ -34,14 +46,42 @@
 </div>
 
 <div class="container-fluid contains">
-    <div class="article-contains">
-        <h1>宝石的基本概念</h1>
+    <div class="row">
+        <div class="col-3">
+            <div class="nav_container ArticleCategory" id="nav">
+                <nav>
+                    <ul class="mcd-menu">
+                        <li> <a id="at1" class="active"> <i class="fa fa-home"></i> <strong>宝石的基本概念</strong></a>
+                            <ul>
+                                <li><a id="att1" href="#st1"><i class="fa fa-globe"></i>宝石的定义</a>
+                                    <ul>
+                                        <li><a id="at31" href="#sst1"><i class="fa fa-leaf"></i>珠宝玉石的概念</a></li>
+                                        <li><a id="at32" href="#sst2"><i class="fa fa-tasks"></i>珠宝玉石的分类</a></li>
+                                    </ul>
+                                </li>
+                                <li> <a id="att2" href="#st2"><i class="fa fa-group"></i>天然珠宝玉石具备的条件</a></li>
+                            </ul>
+                        </li>
+                        <li> <a id="at2"> <i class="fa fa-edit"></i> <strong>宝石的分类</strong></a>
+                            <ul>
+                                <li><a id="att3" href="#st3"><i class="fa fa-globe"></i>天然珠宝玉石</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="article-contains col-9">
+        <section id="building">
+        <h1 id="t1">宝石的基本概念</h1>
         <hr>
-        <h2>宝石的定义</h2>
-        <p class="point-title font-weight-bold text-uppercase">珠宝玉石的概念</p>
+
+        <h2 id="st1">宝石的定义</h2>
+        <p id="sst1" class="point-title font-weight-bold text-uppercase">珠宝玉石的概念</p>
         <p>珠宝玉石泛指一切经过琢磨、雕刻后可以成为首饰或工艺晶的材料，是对天然珠宝玉石和人工宝石的统称，简称宝石。</p>
         <br>
-        <p class="point-title font-weight-bold text-uppercase">珠宝玉石的分类</p>
+        <p id="sst2" class="point-title font-weight-bold text-uppercase">珠宝玉石的分类</p>
         <ol>
             <li class="list-title font-weight-bold">天然珠宝玉石</li>
 
@@ -60,7 +100,7 @@
             </ul>
         </ol>
 
-        <h2>天然珠宝玉石具备的条件</h2>
+        <h2 id="st2">天然珠宝玉石具备的条件</h2>
         <ul>
             <li class="list-title font-weight-bold">美丽</li>
             <p>美丽是宝石价值的首要条件。宝石的美由
@@ -78,15 +118,17 @@
                 <li class="list-subtitle">特殊的光学效应</li>
                 <p>有些宝石具有特殊的光学效应，例如星光效应、猫眼效应、变彩效应。</p>
             </ol>
-            <li class="list-title">耐久性</li>
+            <li class="list-title font-weight-bold">耐久性</li>
             <p>宝石需要具备一定的硬度、韧性和化学稳定性等。</p>
             <p>宝石的耐久性由其稳定的物理化学性质决定的，但这一条件对某些宝石可以适当放宽，如有机宝石、大理岩等。</p>
-            <li class="list-title">稀有性</li>
+            <li class="list-title font-weight-bold">稀有性</li>
             <p><span class="font-weight-bold">宝石以产出稀少而名贵。</span>这种稀有性，包括<span class="font-weight-bold">品种上的稀有</span>
                 和<span class="font-weight-bold">质量上的稀有。</span>因品种稀有性而影响价格的例子可举紫晶。它半透明至透明，紫色、紫红色给人以高雅
             之感，最初仅见于欧洲大陆，被人们视为珍宝，价值很高，但当在其他国家大量发现以后，价格大跌。</p>
         </ul>
 
+
+            <div id="t2">
         <h1>宝石的分类</h1>
         <p>由于宝石本身的特殊性，国际上迄今为止还没有一个统一的方案。以下以我国珠宝首饰行业的国家标准对珠宝玉石的定义和分类为例。</p>
         <p>在我国，分类的主要原则为：</p>
@@ -110,7 +152,7 @@
             </tr>
         </table>
 
-        <h2>天然珠宝玉石</h2>
+        <h2 id="st3">天然珠宝玉石</h2>
         <p class="point-title font-weight-bold">定义</p>
         <p>由自然界产出，具有美观、耐久、稀少性，具有工艺价值，可加工成饰品的物质。</p>
         <p class="point-title font-weight-bold">分类</p>
@@ -122,11 +164,11 @@
             <li class="list-title font-weight-bold">天然宝石矿物的族、种、亚种的划分</li>
 
         </ol>
+        </div>
+        </div>
+        </section>
     </div>
 </div>
-
-
-
 
 </body>
 </html>
